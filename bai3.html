@@ -65,6 +65,7 @@
 
             <h2 id="quatrinh">2. Tóm tắt quá trình thực hiện</h2>
             <p>Tình huống thực hành: Soạn thảo một tài liệu hướng dẫn súc tích về <strong>Nhận biết email lừa đảo (Phishing)</strong> nhằm phổ cập kỹ năng an toàn số cho sinh viên năm nhất trường Sư phạm.</p>
+            <p class="small"><strong>Công cụ và cách dùng:</strong> ChatGPT được dùng để thử prompt và gợi ý bản nháp; người học cần kiểm tra dấu hiệu an toàn số với nguồn đáng tin cậy, biên tập lại và chịu trách nhiệm về nội dung cuối.</p>
 
             <h3>Bảng đối chiếu kỹ thuật cấu trúc Prompt</h3>
             <table>
@@ -88,22 +89,25 @@
               </tbody>
             </table>
 
-            <h3>So sánh chất lượng đầu ra giữa hai phương pháp</h3>
+            <h3>Kết quả thực tế và so sánh đầu ra</h3>
+            <p class="small">Ảnh chụp dưới đây ghi lại prompt ban đầu và prompt được bổ sung vai trò, đối tượng, độ dài, các ý cần có và giới hạn nội dung.</p>
+            <div class="evidence-gallery" aria-label="Ảnh chụp kết quả thực hiện hai prompt">
+              <figure><img src="assets/bai3/prompt-basic-output.png" alt="Kết quả ChatGPT khi nhận prompt ngắn về email lừa đảo"><figcaption>Hình 1. Đầu ra từ yêu cầu ngắn “Viết về email lừa đảo”.</figcaption></figure>
+              <figure><img src="assets/bai3/prompt-structured-output.png" alt="Kết quả ChatGPT từ prompt có cấu trúc về nhận biết email lừa đảo"><figcaption>Hình 2. Đầu ra từ prompt có yêu cầu cụ thể về dấu hiệu, cách xử lý và ví dụ.</figcaption></figure>
+            </div>
             <div class="two">
               <div class="card" style="padding: 22px;">
                 <div class="tag" style="color: #f87171;">Bản ngắn · Prompt cơ bản</div>
-                <p style="font-style: italic; margin-top: 8px;">"Email lừa đảo là email giả mạo để lấy thông tin cá nhân. Cần cảnh giác trước email lạ và tránh nhấn vào liên kết đáng ngờ."</p>
+                <p style="font-style: italic; margin-top: 8px;">Đầu ra ban đầu triển khai thành nhiều mục như định nghĩa, hình thức, dấu hiệu và tác hại. Nội dung có ích nhưng dài, chưa tập trung vào những việc người đọc cần làm ngay.</p>
                 <div class="foot" style="margin-top: 14px; font-size: 12.5px; color: var(--text-muted);">
-                  <strong>Đánh giá:</strong> Câu từ hời hợt, không có giá trị ứng dụng thực tiễn, người đọc không biết phải xử lý ra sao trong tình huống thực tế.
+                  <strong>Đánh giá:</strong> Có thông tin nền nhưng đầu ra dài và chưa bám một định dạng hay độ dài cụ thể; người đọc khó tìm nhanh các bước cần làm.
                 </div>
               </div>
 
               <div class="card" style="padding: 22px;">
                 <div class="tag" style="color: var(--cyan);">Bản có cấu trúc · Prompt nâng cao</div>
                 <p style="margin-top: 8px;">
-                  <strong>4 dấu hiệu:</strong> Địa chỉ người gửi giả mạo tên miền trường, yêu cầu khẩn cấp kích động tâm lý, lỗi chính tả/ngữ pháp và đường link trỏ đến tên miền lạ.<br>
-                  <strong>3 việc cần làm:</strong> Đối chiếu kênh chính thức; không cung cấp tài khoản mật khẩu; chuyển tiếp cho bộ phận quản trị công nghệ.<br>
-                  <strong>Ví dụ thực tế:</strong> Thông báo 'Khóa tài khoản học tập sau 2 giờ nếu không xác thực ngay'.
+                  Đầu ra có cấu trúc theo các mục đã yêu cầu: dấu hiệu nhận biết, việc nên làm và ví dụ tình huống. Cách chia mục giúp người đọc tìm nhanh hướng xử lý; vẫn cần kiểm tra lại khuyến nghị trước khi chia sẻ.
                 </p>
                 <div class="foot" style="margin-top: 14px; font-size: 12.5px; color: var(--gold);">
                   <strong>Đánh giá:</strong> Cấu trúc logic, định lượng rõ ràng, ngôn ngữ sư phạm dễ hiểu và có thể áp dụng ngay vào môi trường trường học.
