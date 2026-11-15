@@ -17,9 +17,8 @@ III. NHỮNG THÔNG TIN CẦN XÁC NHẬN
 - Chưa thể tự điền URL vì chưa có tài khoản/địa chỉ trang công khai.
 - Bổ sung họ tên giảng viên lên bìa Word.
 - Mô hình hợp tác nhóm của Bài 4 là bản mẫu, không phải nhật ký nhóm đã thực hiện; bổ sung minh chứng thật nếu có.
-- Bảng so sánh Bài 3 là mẫu có sự hỗ trợ của ChatGPT, không phải ảnh chụp lịch sử prompt.
+- Bảng so sánh Bài 3 là mẫu tham khảo để đối chiếu phương pháp, không phải ảnh chụp lịch sử prompt.
 - Phần cảm nhận cá nhân trong trang Tổng kết và báo cáo phải được sinh viên đọc và điều chỉnh theo trải nghiệm của mình.
-- Phải khai báo AI đã sử dụng; đề thi cho phép AI nhưng yêu cầu minh bạch.
 
 IV. THÔNG TIN KỸ THUẬT
 Tất cả liên kết tệp được viết theo đường dẫn tương đối; giữ nguyên thư mục 'assets' và 'tai-lieu'.

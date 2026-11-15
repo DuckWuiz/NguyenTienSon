@@ -1,4 +1,78 @@
-<!doctype html><html lang="vi"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Portfolio học phần Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo của Nguyễn Tiến Sơn, K20G SPAN."><title>Bài 1 – Thao tác cơ bản với tệp tin và thư mục | Nguyễn Tiến Sơn</title><link rel="stylesheet" href="assets/style.css"></head><body><header><nav class="nav"><a class="brand" href="index.html"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect width="40" height="40" rx="11" fill="#1B437C"/><path d="M9 28V11h5l6 9 6-9h5v17h-5V18l-6 8-6-8v10H9z" fill="#F1C577"/></svg><span>NGUYỄN TIẾN SƠN<br><small>Digital learning portfolio</small></span></a><div class="menu"><a href="index.html" class="">Giới thiệu</a><a href="projects.html" class="">Dự án</a><details class="current"><summary>06 bài tập ▾</summary><div class="dropdown"><a href="bai1.html">Bài 1 · Quản lý tệp tin</a><a href="bai2.html">Bài 2 · Đánh giá nguồn học thuật</a><a href="bai3.html">Bài 3 · Viết prompt hiệu quả</a><a href="bai4.html">Bài 4 · Hợp tác trực tuyến</a><a href="bai5.html">Bài 5 · Sáng tạo nội dung với AI</a><a href="bai6.html">Bài 6 · Sử dụng AI có trách nhiệm</a></div></details><a href="conclusion.html" class="">Tổng kết</a></div></nav></header><main><section class="pagehead"><div class="wrap"><div class="eyebrow">Bài tập 1 / 06</div><h1>Bài 1 – Thao tác cơ bản với tệp tin và thư mục</h1><p>Chương 1 · Máy tính và các thiết bị ngoại vi</p></div></section><section class="main"><div class="wrap"><div class="crumb"><a href="index.html">Trang chủ</a> / <a href="projects.html">Dự án</a> / Bài 1</div><div class="content-shell"><article class="content"><h2 id="muctieu">1. Mục tiêu bài tập</h2><p>Rèn cách tạo thư mục, phân loại tài liệu, đặt tên tệp nhất quán, sao lưu và tìm lại học liệu nhanh khi cần. Sản phẩm là một bộ thư mục mẫu để quản lý học phần Công nghệ số và AI.</p><h2 id="quatrinh">2. Tóm tắt quá trình thực hiện</h2><ol><li>Xác định nhóm tệp: bài giảng, bài thực hành, hình ảnh, tài liệu tham khảo và bản nộp.</li><li>Tạo các thư mục con theo số thứ tự để giữ thứ tự hiển thị.</li><li>Đặt tên theo mẫu <code>INF2501_BaiXX_TenNoiDung_v01.ext</code>, không dùng ký tự đặc biệt hoặc tên mơ hồ.</li><li>Tạo thư mục dự phòng và kiểm tra từng tệp trước khi lưu trữ lâu dài.</li></ol><h3>Cấu trúc thư mục đã tạo</h3><pre>INF2501_Portfolio_NguyenTienSon/
+<!doctype html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio học phần Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo của Nguyễn Tiến Sơn, K20G SPAN.">
+  <title>Bài 1 – Thao tác cơ bản với tệp tin và thư mục | Nguyễn Tiến Sơn</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <!-- Ambient Glow Backgrounds -->
+  <div class="ambient-glow ambient-glow-1"></div>
+  <div class="ambient-glow ambient-glow-2"></div>
+
+  <!-- Header Navigation -->
+  <header>
+    <nav class="nav">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <rect width="40" height="40" rx="11" fill="#1B437C"/>
+          <path d="M9 28V11h5l6 9 6-9h5v17h-5V18l-6 8-6-8v10H9z" fill="#F1C577"/>
+        </svg>
+        <span>NGUYỄN TIẾN SƠN<br><small>Digital learning portfolio</small></span>
+      </a>
+      <div class="menu">
+        <a href="index.html" class="">Giới thiệu</a>
+        <a href="projects.html" class="">Dự án</a>
+        <details class="current">
+          <summary>06 bài tập ▾</summary>
+          <div class="dropdown">
+            <a href="bai1.html">Bài 1 · Quản lý tệp tin</a>
+            <a href="bai2.html">Bài 2 · Đánh giá nguồn học thuật</a>
+            <a href="bai3.html">Bài 3 · Viết prompt hiệu quả</a>
+            <a href="bai4.html">Bài 4 · Hợp tác trực tuyến</a>
+            <a href="bai5.html">Bài 5 · Sáng tạo nội dung với AI</a>
+            <a href="bai6.html">Bài 6 · Sử dụng AI có trách nhiệm</a>
+          </div>
+        </details>
+        <a href="conclusion.html" class="">Tổng kết</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Page Header -->
+    <section class="pagehead">
+      <div class="wrap">
+        <div class="eyebrow">Bài tập 1 / 06</div>
+        <h1>Bài 1 – Thao tác cơ bản với tệp tin và thư mục</h1>
+        <p>Chương 1 · Máy tính và các thiết bị ngoại vi · Xây dựng cấu trúc dữ liệu khoa học</p>
+      </div>
+    </section>
+
+    <!-- Main Content -->
+    <section class="main">
+      <div class="wrap">
+        <div class="crumb">
+          <a href="index.html">Trang chủ</a> / <a href="projects.html">Dự án</a> / Bài 1
+        </div>
+        
+        <div class="content-shell">
+          <article class="content">
+            <h2 id="muctieu">1. Mục tiêu bài tập</h2>
+            <p>Rèn luyện kỹ năng tổ chức hệ thống tập tin máy tính, phân loại học liệu số, thiết lập quy tắc đặt tên tệp nhất quán, sao lưu dự phòng và truy xuất tài liệu nhanh chóng khi cần. Sản phẩm là một bộ thư mục mẫu chuẩn hóa để quản lý toàn bộ học liệu học phần Công nghệ số và AI.</p>
+
+            <h2 id="quatrinh">2. Tóm tắt quá trình thực hiện</h2>
+            <ol>
+              <li><strong>Xác định nhóm tệp tin:</strong> Phân chia tài liệu thành 5 nhóm cốt lõi: bài giảng lý thuyết, bài tập thực hành, tư liệu hình ảnh/âm thanh, tài liệu tham khảo học thuật và bản nộp chính thức.</li>
+              <li><strong>Tạo các thư mục con theo thứ tự:</strong> Đánh số thứ tự tiền tố (<code>01_</code>, <code>02_</code>,...) để hệ điều hành luôn sắp xếp theo đúng quy trình học tập.</li>
+              <li><strong>Thiết lập quy chuẩn đặt tên:</strong> Sử dụng cấu trúc chuẩn <code>INF2501_BaiXX_TenNoiDung_v01.ext</code>, viết liền không dấu hoặc gạch dưới, tuyệt đối không dùng ký tự đặc biệt hay tên mơ hồ.</li>
+              <li><strong>Sao lưu dự phòng:</strong> Tạo thư mục lưu trữ dự phòng đám mây (Cloud backup) và kiểm tra dung lượng từng tệp trước khi đóng gói nộp bài.</li>
+            </ol>
+
+            <h3>Cấu trúc cây thư mục chuẩn hóa</h3>
+            <pre>INF2501_Portfolio_NguyenTienSon/
 ├── 01_BaiGiang/
 ├── 02_BaiTap/
 │   ├── Bai01_TinHocCoBan/
@@ -10,4 +84,50 @@
 ├── 03_HinhAnh/
 ├── 04_TaiLieuThamKhao/
 ├── 05_BanNop/
-└── README.txt</pre><div class="note">Khó khăn: tệp dễ bị trùng tên và thất lạc. Cách xử lý: dùng tiền tố chương/bài, phiên bản v01-v02 và thư mục bản nộp riêng. Bài này không dùng AI để thao tác tệp; AI chỉ hỗ trợ rà soát cách trình bày trên Portfolio.</div><h2 id="sanpham">3. Sản phẩm cuối cùng</h2><p>Bộ thư mục mẫu có thể tải về và mở để kiểm tra trực tiếp. Sơ đồ phía trên phản ánh đúng các thư mục trong tệp ZIP.</p><p><a class="btn" href="tai-lieu/Bai01_CauTrucThuMuc.zip" download>↓ Tải bộ thư mục Bài 1 (.zip)</a></p><div class="actions"><a class="btn" href="projects.html">← Trở về Dự án</a><a class="btn" href="bai2.html">Bài 2 tiếp theo →</a></div></article><aside class="side"><strong>Nội dung bài tập</strong><a href="#muctieu">1. Mục tiêu</a><a href="#quatrinh">2. Quá trình</a><a href="#sanpham">3. Sản phẩm</a><a href="projects.html">← Danh mục dự án</a><div style="margin-top:15px;color:#66768b">Chương 1 · Máy tính và các thiết bị ngoại vi</div></aside></div></div></section></main><footer><div class="wrap"><div><strong>Nguyễn Tiến Sơn · 2552210371 · K20G SPAN</strong><br><span class="footer-note">Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo (INF2501)</span></div><div class="footer-note">Portfolio học phần · 2026</div></div></footer><script src="assets/app.js"></script></body></html>
+└── README.txt</pre>
+
+            <div class="note">
+              <strong>Bài học kinh nghiệm:</strong> Tệp tin rất dễ bị trùng lặp hoặc thất lạc nếu lưu tùy tiện trên Desktop/Downloads. Giải pháp hiệu quả là luôn áp dụng tiền tố chương bài, đánh số phiên bản <code>v01-v02</code> và tách riêng thư mục bản nộp cuối.
+            </div>
+
+            <h2 id="sanpham">3. Sản phẩm cuối cùng</h2>
+            <p>Bộ thư mục mẫu hoàn chỉnh đã được chuẩn hóa lại theo cấu trúc phân lớp rõ ràng và dễ kiểm tra.</p>
+
+            <p style="margin: 24px 0;">Tệp mẫu bài 1 đã được gỡ khỏi kho tài liệu công khai.</p>
+
+            <div class="actions">
+              <a class="btn" href="projects.html">← Trở về Danh mục</a>
+              <a class="btn gold" href="bai2.html">Bài 2 tiếp theo →</a>
+            </div>
+          </article>
+
+          <!-- Sticky Sidebar -->
+          <aside class="side">
+            <strong>Nội dung bài tập</strong>
+            <a href="#muctieu">1. Mục tiêu bài tập</a>
+            <a href="#quatrinh">2. Quá trình thực hiện</a>
+            <a href="#sanpham">3. Sản phẩm đính kèm</a>
+            <a href="projects.html">← Danh mục 06 dự án</a>
+            <div style="margin-top:18px; padding-top:14px; border-top:1px solid var(--line); color:var(--text-muted); font-size:12.5px;">
+              Chương 1 · Máy tính và các thiết bị ngoại vi
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="wrap">
+      <div>
+        <strong>Nguyễn Tiến Sơn · MSSV: 2552210371 · Lớp: K20G SPAN</strong><br>
+        <span class="footer-note">Học phần: Nhập môn Công nghệ số và ứng dụng trí tuệ nhân tạo (INF2501)</span>
+      </div>
+      <div class="footer-note">Digital Learning Portfolio · 2026</div>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
