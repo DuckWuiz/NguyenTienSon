@@ -1,0 +1,1 @@
+document.querySelectorAll('.menu details').forEach(d=>document.addEventListener('click',e=>{if(!d.contains(e.target))d.removeAttribute('open')}));
